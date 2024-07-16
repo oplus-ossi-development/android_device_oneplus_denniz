@@ -1,5 +1,8 @@
 # Unpinned blobs from DN2103_11_F.45 (sys_mssi_64_cn_armv82-user 13 TP1A.220905.001 1684289553451 release-keys)
 
+# Camera - lib3a - from RMX3031_11.C.14
+vendor/lib64/lib3a.af.core.so|0d3c747b1bb8a85289aae1226f9da70927103486
+
 # Camera
 -framework/oplus-support-wrapper.jar
 lib/vendor.oplus.hardware.cameraextension@1.0.so
@@ -883,7 +886,6 @@ vendor/lib64/lib3a.ae.stat.so
 vendor/lib64/lib3a.af.assist.models.so
 vendor/lib64/lib3a.af.assist.so
 vendor/lib64/lib3a.af.assist.utils.so
-vendor/lib64/lib3a.af.core.so
 vendor/lib64/lib3a.af.so
 vendor/lib64/lib3a.aishutter.models.so
 vendor/lib64/lib3a.alsflicker.so
