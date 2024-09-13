@@ -25,24 +25,22 @@ $(call inherit-product, device/oplus/denniz/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := rising_denniz
+PRODUCT_NAME := lineage_denniz
 PRODUCT_DEVICE := denniz
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := OnePlus Nord 2 5G
 PRODUCT_MANUFACTURER := OnePlus
 
 # Rising
-RISING_PACKAGE_TYPE := "GAPPS"
-TARGET_ENABLE_BLUR := true
-PRODUCT_NO_CAMERA := false
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+RISING_MAINTAINER := lahaina
+RISING_CHIPSET := MediaTek Dimensity 1200-AI
 WITH_GMS := true
 TARGET_CORE_GMS := true
 TARGET_CORE_GMS_EXTRAS := true
+TARGET_ENABLE_BLUR := true
+PRODUCT_NO_CAMERA := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := true
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    RISING_CHIPSET="MediaTek Dimensity 1200-AI" \
-    RISING_MAINTAINER="lahaina"
 
 # Build info
 BUILD_FINGERPRINT := "OnePlus/DN2103EEA/OP515BL1:13/TP1A.220905.001/R.108b2c1-1:user/release-keys"

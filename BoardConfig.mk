@@ -19,6 +19,9 @@ DEVICE_PATH := device/oplus/denniz
 # Inherit from oplus mt6893-common
 include device/oplus/mt6893-common/BoardConfigCommon.mk
 
+# Architecture
+TARGET_2ND_ARCH_VARIANT := armv8-2a
+
 # Assertation
 TARGET_OTA_ASSERT_DEVICE := denniz,OP515BL1
 
