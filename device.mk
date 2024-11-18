@@ -27,6 +27,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_VENDOR_PROPERTIES += \
     persist.sys.sf.color_saturation=0.95
 
+# MTK InCallService
+PRODUCT_PACKAGES += \
+    MtkInCallService
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayDenniz \
