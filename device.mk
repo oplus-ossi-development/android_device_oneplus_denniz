@@ -23,10 +23,6 @@ $(call inherit-product, device/oplus/mt6893-common/common.mk)
 PRODUCT_PACKAGES += \
     alert-slider_daemon
 
-# Display saturation adjust
-PRODUCT_VENDOR_PROPERTIES += \
-    persist.sys.sf.color_saturation=0.95
-
 # MTK InCallService
 PRODUCT_PACKAGES += \
     MtkInCallService
