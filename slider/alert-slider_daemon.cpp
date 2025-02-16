@@ -58,11 +58,11 @@ int main() {
         int state = read_tristate();
         printf("State %d\n", state);
         if (state == 1) {
-            system("service call audio 42 i32 0 s16 android");
+            system("service call audio 43 i32 0 s16 android");
         } else if (state == 2) {
-            system("service call audio 42 i32 1 s16 android");
+            system("service call audio 43 i32 1 s16 android");
         } else if (state == 3) {
-            system("service call audio 42 i32 2 s16 android");
+            system("service call audio 43 i32 2 s16 android");
         }
     }
 }
